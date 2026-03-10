@@ -1,0 +1,42 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+@theme {
+  --font-sans: "Poppins", "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  --font-headline: "Poppins", "Montserrat", sans-serif;
+  
+  --color-mint: #bfe8d6;
+  --color-mint-light: #d5efe4;
+  --color-lilac: #d2b0df;
+  --color-pink: #f8b7c7;
+  --color-pink-soft: #ffd2db;
+  --color-green-button: #10c25b;
+  --color-red-section: #d9112f;
+  --color-purple-soft: #c9a3d8;
+  
+  --radius-card: 18px;
+  --radius-button: 14px;
+}
+
+@layer base {
+  body {
+    @apply bg-[#f4f4f4] text-[#222222] font-sans;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-headline font-extrabold text-[#111111] tracking-tight;
+  }
+}
+
+.shadow-soft {
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+  @apply bg-green-button text-white font-bold py-4 px-8 rounded-button shadow-lg hover:scale-105 transition-transform uppercase text-center inline-block;
+}
+
+.section-container {
+  @apply max-w-[1200px] mx-auto px-4 md:px-6 py-14 md:py-24;
+}
+
