@@ -19,17 +19,14 @@ export const pageData = {
       "id": "hero",
       "type": "hero_split",
       "background": "#f4f4f4",
-      "logo_top": true,
+      "logo_url": "https://github.com/thebabirosa/GUIAIMAG/blob/main/0GUIA%20(1).png?raw=true",
       "headline": "Descubra como montar uma festinha infantil igual a dos ricos gastando pouco com lista de achadinhos",
       "badges": [
         "lista atualizada 2026",
         "kits prontos",
         "+100 links diretos"
       ],
-      "gallery": [
-        "placeholder_hero_foto_01_crianca_com_bolo.jpg",
-        "placeholder_hero_foto_02_festa_pronta.jpg"
-      ],
+      "main_image": "https://github.com/thebabirosa/GUIAIMAG/blob/main/Design%20sem%20nome%20(14).png?raw=true",
       "notes": "Manter topo limpo, centralizado e muito parecido com a referência."
     },
     {
@@ -46,7 +43,7 @@ export const pageData = {
         "Cansou de pagar caro por coisas que você mesma poderia comprar pela metade do preço."
       ],
       "footer_text": "Se você se identifica com pelo menos 2 desses itens, o Guia de Achadinhos é o seu atalho para a festa dos sonhos.",
-      "side_image": "placeholder_paisagem_nuvens_campo.png"
+      "side_image": "https://github.com/thebabirosa/GUIAIMAG/blob/main/20260309_1739_Image%20Generation_simple_compose_01kka56437eckspkpdh93cxnpy.png?raw=true"
     },
     {
       "id": "pain_beliefs",

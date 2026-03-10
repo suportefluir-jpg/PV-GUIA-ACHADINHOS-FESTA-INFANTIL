@@ -51,10 +51,10 @@ export const Section = ({
 export const HeroSplit = ({ data }: { data: any }) => (
   <Section id={data.id} background={data.background} containerClassName="py-4 md:py-8">
     <div className="flex flex-col items-center text-center max-w-4xl mx-auto">
-      {data.logo_top && (
+      {data.logo_url && (
         <div className="mb-2 max-w-[320px] md:max-w-[400px]">
           <img 
-            src="https://github.com/thebabirosa/GUIAIMAG/blob/main/0GUIA%20(1).png?raw=true" 
+            src={data.logo_url} 
             alt="Guia de Achadinhos" 
             className="w-full h-auto"
             referrerPolicy="no-referrer"
@@ -83,7 +83,7 @@ export const HeroSplit = ({ data }: { data: any }) => (
           className="aspect-[4/3]"
         >
           <img 
-            src="https://github.com/thebabirosa/GUIAIMAG/blob/main/Design%20sem%20nome%20(14).png?raw=true" 
+            src={data.main_image} 
             alt="Festa Infantil" 
             className="w-full h-full object-contain"
             referrerPolicy="no-referrer"
@@ -120,7 +120,7 @@ export const BenefitsWithSideImage = ({ data }: { data: any }) => (
           className="rounded-card overflow-hidden shadow-2xl"
         >
           <img 
-            src="https://github.com/thebabirosa/GUIAIMAG/blob/main/20260309_1739_Image%20Generation_simple_compose_01kka56437eckspkpdh93cxnpy.png?raw=true" 
+            src={data.side_image} 
             alt="Festa dos Sonhos" 
             className="w-full h-auto"
             referrerPolicy="no-referrer"
