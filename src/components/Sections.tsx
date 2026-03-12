@@ -48,51 +48,76 @@ export const Section = ({
 
 // --- Sections ---
 
-export const HeroSplit = ({ data }: { data: any }) => (
-  <Section id={data.id} background={data.background} containerClassName="py-4 md:py-8">
-    <div className="flex flex-col items-center text-center max-w-4xl mx-auto">
-      {data.logo_url && (
-        <div className="mb-2 max-w-[320px] md:max-w-[400px]">
-          <img 
-            src={data.logo_url} 
-            alt="Guia de Achadinhos" 
-            className="w-full h-auto"
-            referrerPolicy="no-referrer"
-          />
+export const HeroSplit = ({ data }: { data: any }) => {
+  const highlightText = (text: string) => {
+    const wordsToHighlight = ["festinha infantil", "ricos", "achadinhos"];
+    let parts: (string | React.ReactNode)[] = [text];
+
+    wordsToHighlight.forEach((word) => {
+      const newParts: (string | React.ReactNode)[] = [];
+      parts.forEach((part) => {
+        if (typeof part === "string") {
+          const regex = new RegExp(`(${word})`, "gi");
+          const splitParts = part.split(regex);
+          splitParts.forEach((splitPart) => {
+            if (wordsToHighlight.some(w => splitPart.toLowerCase() === w.toLowerCase())) {
+              newParts.push(<span key={Math.random()} className="text-green-button font-black">{splitPart}</span>);
+            } else {
+              newParts.push(splitPart);
+            }
+          });
+        } else {
+          newParts.push(part);
+        }
+      });
+      parts = newParts;
+    });
+
+    return parts;
+  };
+
+  return (
+    <Section id={data.id} background={data.background} containerClassName="py-4 md:py-8">
+      <div className="flex flex-col items-center text-center max-w-4xl mx-auto">
+        {data.logo_url && (
+          <div className="mb-2 max-w-[320px] md:max-w-[400px]">
+            <img 
+              src={data.logo_url} 
+              alt="Guia de Achadinhos" 
+              className="w-full h-auto"
+              referrerPolicy="no-referrer"
+            />
+          </div>
+        )}
+        <h1 className="text-3xl md:text-5xl lg:text-6xl mb-2 leading-tight">
+          {highlightText(data.headline)}
+        </h1>
+        <div className="flex flex-wrap justify-center gap-4 mb-6">
+          {data.badges.map((badge: string, i: number) => (
+            <span key={i} className="bg-white/90 backdrop-blur-sm px-6 py-3 rounded-full text-lg md:text-xl font-bold shadow-md border border-pink/30 flex items-center gap-2 uppercase tracking-tight">
+              <span>✅</span> {badge}
+            </span>
+          ))}
         </div>
-      )}
-      <h1 className="text-3xl md:text-5xl lg:text-6xl mb-2 leading-tight">
-        {data.headline}
-      </h1>
-      <div className="flex flex-wrap justify-center gap-3 mb-4">
-        {data.badges.map((badge: string, i: number) => (
-          <span key={i} className="bg-white/80 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-bold shadow-sm border border-pink/20">
-            {badge}
-          </span>
-        ))}
-      </div>
-      <motion.div 
-        initial={{ opacity: 0, scale: 0.9 }}
-        whileInView={{ opacity: 1, scale: 1 }}
-        viewport={{ once: true }}
-        className="max-w-2xl w-full"
-      >
         <motion.div 
-          animate={{ y: [0, -10, 0] }}
-          transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-          className="aspect-[4/3]"
+          initial={{ opacity: 0, scale: 0.9 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
+          className="max-w-2xl w-full"
         >
-          <img 
-            src={data.main_image} 
-            alt="Festa Infantil" 
-            className="w-full h-full object-contain"
-            referrerPolicy="no-referrer"
-          />
+          <div className="aspect-[4/3]">
+            <img 
+              src={data.main_image} 
+              alt="Festa Infantil" 
+              className="w-full h-full object-contain"
+              referrerPolicy="no-referrer"
+            />
+          </div>
         </motion.div>
-      </motion.div>
-    </div>
-  </Section>
-);
+      </div>
+    </Section>
+  );
+};
 
 export const BenefitsWithSideImage = ({ data }: { data: any }) => (
   <Section id={data.id} background={data.background}>
@@ -114,18 +139,14 @@ export const BenefitsWithSideImage = ({ data }: { data: any }) => (
         viewport={{ once: true }}
         className="order-1 lg:order-2"
       >
-        <motion.div 
-          animate={{ rotate: [2, -2, 2] }}
-          transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
-          className="rounded-card overflow-hidden shadow-2xl"
-        >
+        <div className="rounded-card overflow-hidden shadow-2xl">
           <img 
             src={data.side_image} 
             alt="Festa dos Sonhos" 
             className="w-full h-auto"
             referrerPolicy="no-referrer"
           />
-        </motion.div>
+        </div>
       </motion.div>
     </div>
     <div className="mt-12 text-center max-w-3xl mx-auto">
@@ -195,15 +216,21 @@ export const QuoteBlocks = ({ data }: { data: any }) => (
 export const TextBoxEmphasis = ({ data }: { data: any }) => (
   <Section id={data.id} background={data.background}>
     <div 
-      className="p-8 md:p-16 rounded-[40px] shadow-2xl text-center max-w-5xl mx-auto mb-12"
-      style={{ backgroundColor: data.box_background }}
+      className={cn(
+        "p-8 md:p-16 rounded-[40px] shadow-2xl text-center max-w-5xl mx-auto",
+        data.highlight_cta_text ? "mb-12" : ""
+      )}
+      style={{ 
+        backgroundColor: data.box_background,
+        border: data.border_color ? `4px solid ${data.border_color}` : 'none'
+      }}
     >
-      <div className="space-y-6 text-white">
+      <div className={cn("space-y-6", data.box_background === '#ffffff' ? "text-gray-900" : "text-white")}>
         {data.paragraphs.map((p: string, i: number) => (
           <p key={i} className={cn(
             "text-lg md:text-xl leading-relaxed whitespace-pre-line", 
             i === 0 && "text-2xl md:text-4xl font-black mb-10 block",
-            i === data.paragraphs.length - 1 && "text-2xl font-black uppercase tracking-tight"
+            i === data.paragraphs.length - 1 && !data.highlight_cta_text && "text-2xl font-black uppercase tracking-tight"
           )}>
             {p}
           </p>
@@ -390,7 +417,7 @@ export const OfferSplit = ({ data }: { data: any }) => (
           ))}
         </div>
         <CTAButton label={data.button_label} url={data.button_url} className="mb-4" />
-        <p className="text-sm font-bold text-red-section animate-pulse">{data.urgency}</p>
+        <p className="text-sm font-bold text-red-section">{data.urgency}</p>
       </div>
     </div>
   </Section>

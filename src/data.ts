@@ -19,14 +19,14 @@ export const pageData = {
       "id": "hero",
       "type": "hero_split",
       "background": "#f4f4f4",
-      "logo_url": "https://github.com/thebabirosa/GUIAIMAG/blob/main/0GUIA%20(1).png?raw=true",
+      "logo_url": "https://github.com/suportefluir-jpg/pv-festa-images/blob/main/LOGO%20(3).png?raw=true",
       "headline": "Descubra como montar uma festinha infantil igual a dos ricos gastando pouco com lista de achadinhos",
       "badges": [
         "lista atualizada 2026",
         "kits prontos",
         "+100 links diretos"
       ],
-      "main_image": "https://github.com/thebabirosa/GUIAIMAG/blob/main/Design%20sem%20nome%20(14).png?raw=true",
+      "main_image": "https://github.com/suportefluir-jpg/pv-festa-images/blob/main/GUIA%20ACHADINHOS%20(2).png?raw=true",
       "notes": "Manter topo limpo, centralizado e muito parecido com a referência."
     },
     {
@@ -48,51 +48,56 @@ export const pageData = {
     {
       "id": "pain_beliefs",
       "type": "quote_blocks",
-      "background": "#bfe8d6",
+      "background": "#ffffff",
       "intro": "Eu sei, você sente que para fazer uma festa linda, \nvocê precisa ter a conta bancária de gente rica",
       "subintro": "Por isso, toda vez você pensa:",
       "quotes": [
-        "“Eu trabalho o dia todo e chego em casa exausta. Não tenho tempo nem cabeça pra ficar procurando coisa por coisa na internet.”",
-        "“Será que meu filho vai crescer e achar que eu não fiz nada de especial porque deixei a data passar em branco?”",
-        "“Meu cartão já está no limite. Se eu tentar fazer uma festa agora, vou ter que gastar o que não tenho.”",
-        "“Toda vez que penso na festa, meu coração aperta porque sei que vai sair caro demais.”",
-        "“Será que meu filho vai crescer e achar que eu não fiz nada de especial porque deixei a data passar em branco?”",
-        "“Tenho medo de comprar coisas baratas pela internet e chegar tudo feio, com cara de ‘pobre’. Não quero passar vergonha.”"
+        "“Meu Deus… só o bolo já está uma fortuna.”",
+        "“Será que vou ter que deixar esse aniversário passar em branco?”",
+        "“As fotos vão ficar horríveis…”",
+        "“Não tenho tempo pra ficar procurando tudo na internet.”",
+        "“Já tô até vendo minha sogra reclamar…”",
+        "“Vai todo mundo comparar com outras festas.”",
+        "“Tudo está caro demais.”",
+        "“E se eu comprar online e chegar tudo feio?”",
+        "“Não sei nem por onde começar.”"
       ],
       "center_visual": "placeholder_paisagem_nuvens_campo.png"
     },
     {
       "id": "agitation_transition",
       "type": "text_box_emphasis",
-      "background": "#f8b7c7",
-      "box_background": "#c9a3d8",
+      "background": "#f4f4f4",
+      "box_background": "#ffffff",
+      "border_color": "#c9a3d8",
       "paragraphs": [
         "Você sabe do que eu estou falando, \nnão é mesmo?",
         "Você olha aquelas festas lindas no Instagram e o seu coração aperta. Você se sente exausta, sobrecarregada e com medo de que o aniversário do seu filho passe em branco.",
-        "Você morre de medo de tentar fazer algo, gastar o que não tem no cartão e, no final, a festa ficar com cara de “pobre” e você passar vergonha.",
-        "Agora eu te pergunto..."
-      ],
-      "highlight_cta_text": "Se você pudesse ter uma festa de rica, como a das filhas da Virgínia. Sem precisar vender um rim, sem estourar o limite do seu cartão e sem perder horas da sua vida garimpando coisa feia na internet...\n\nIsso mudaria a sua vida? Se a resposta for \"SIM\",\no Guia Achadinhos é para você!"
+        "Você morre de medo de tentar fazer algo, gastar o que não tem no cartão e, no final, a festa ficar simples demais e você passar vergonha.",
+        "Agora eu te pergunto...",
+        "Se você pudesse ter uma festa de rica, como a das filhas da Virgínia. Sem precisar vender um rim, sem estourar o limite do seu cartão e sem perder horas da sua vida garimpando coisa feia na internet...",
+        "Isso mudaria a sua vida? Se a resposta for \"SIM\",\no Guia Achadinhos é para você!"
+      ]
     },
     {
       "id": "three_steps",
       "type": "steps_cards",
       "background": "#d2b0df",
-      "title": "Seguindo esses 3 passos você vai montar uma festinha infantil igual a dos ricos gastando pouco:",
+      "title": "Seguindo esses 3 passos você vai montar uma festinha infantil linda sem gastar muito dinheiro agora:",
       "steps": [
         {
-          "title": "Escolha o seu estilo",
+          "title": "Escolha o tema da festinha",
           "text": "Você vai abrir o Guia e escolher a festa que combina com o seu filho. Nada de planejar do zero, é só bater o olho e decidir.",
           "image": "https://github.com/thebabirosa/GUIAIMAG/blob/main/20260309_1908_Image%20Generation_simple_compose_01kkaa8tvff6ysk2dt5cnpgk4g.png?raw=true"
         },
         {
-          "title": "Acesse a curadoria de achadinhos",
-          "text": "Você vai clicar nos links que eu separei. Eu fiz o trabalho de garimpar itens que são bem avaliados por outras mães e que possuem opções de envio nacional. Assim, você economiza horas de busca e vai direto ao ponto, com muito mais segurança.",
+          "title": "Acesse o link e receba tudo em casa",
+          "text": "Você só vai clicar nos links que eu separei. Assim, você economiza horas de busca e vai direto ao ponto, com muito mais segurança.",
           "image": "https://github.com/thebabirosa/GUIAIMAG/blob/main/20260309_1921_Image%20Generation_simple_compose_01kkab1kydfc99h4cyvh3z8swc.png?raw=true"
         },
         {
           "title": "Monte do seu jeito, sem surpresas",
-          "text": "Com tudo em mãos, é hora de montar a festa. Como você tem os links dos melhores itens, você não perde tempo procurando e nem joga dinheiro fora. E o melhor: você vai ter essa lista sempre à mão para os próximos aniversários, sem precisar gastar com kits prontos ou personalizados caros nunca mais.",
+          "text": "Com tudo em mãos, é hora de montar a festa. E o melhor: você vai ter essa lista sempre à mão para os próximos aniversários, sem precisar gastar com kits prontos ou personalizados caros nunca mais.",
           "image": "https://github.com/thebabirosa/GUIAIMAG/blob/main/20260309_1925_Image%20Generation_simple_compose_01kkab95dsevjth5xn20ke0bs6.png?raw=true"
         }
       ]
@@ -103,16 +108,14 @@ export const pageData = {
       "background": "#f8b7c7",
       "title": "Com o Guia de Achadinhos você vai:",
       "items_left": [
-        "Ter a lista de ouro na mão pra usar em todos os aniversários dos seus filhos e sobrinhos, sem ter que ficar procurando do zero.",
-        "Acabar com a culpa de achar que não consegue dar uma festa de “gente rica” pro seu filho.",
-        "Deixar de depender de preços abusivos, focando no que realmente deixa a mesa bonita.",
-        "Ter paz e sossego, sabendo exatamente o que comprar e onde comprar, sem passar perrengue."
+        "Montar uma festinha que vai deixar as outras mães de boca aberta.",
+        "Ter os achadinhos secretos que as ricas não querem que você saiba.",
+        "Parar de pagar caro por festinha simples."
       ],
       "items_right": [
-        "Ter liberdade de escolha, decidindo o tema e os detalhes da festa do seu jeito, sem depender de ninguém.",
-        "Acabar de vez com o medo de passar vergonha",
-        "Sentir orgulho de si mesma por ter conseguido realizar o sonho do seu filho, sem precisar pedir ajuda ou se endividar.",
-        "Montar uma festa que vai deixar todo mundo de queixo caído, sem ninguém acreditar que você gastou tão pouco."
+        "Montar uma decoração que vai render fotos incríveis.",
+        "Fazer uma festa que vai causar inveja nas outras mães.",
+        "Ver seu filho feliz e todo mundo elogiando a festa."
       ]
     },
     {
@@ -122,39 +125,64 @@ export const pageData = {
       "title": "Veja tudo o que você vai receber para ter uma\n festinha de rica gastando pouco:",
       "items": [
         {
-          "title": "Lista de Achadinhos",
+          "title": "Calculadora de Festa Econômica",
+          "text": "Descubra exatamente quanto comprar de doces, lembrancinhas e itens da mesa, evitando desperdício e garantindo economia.",
+          "image": "https://github.com/thebabirosa/GUIAIMAG/blob/main/5.png?raw=true"
+        },
+        {
+          "title": "Festinhas Personalizadas para Meninas",
+          "text": "Temas encantadores e delicados, pensados exclusivamente para criar um mundo de sonhos para as meninas.",
+          "image": "https://github.com/thebabirosa/GUIAIMAG/blob/main/6.png?raw=true"
+        },
+        {
+          "title": "Festinhas Personalizadas para Meninos",
+          "text": "Opções criativas e cheias de aventura, com tudo que os meninos amam para uma festa inesquecível.",
+          "image": "https://github.com/thebabirosa/GUIAIMAG/blob/main/MOCKUPS.png?raw=true"
+        },
+        {
+          "title": "Festinhas de Super-Heróis",
+          "text": "Transforme o aniversário em uma verdadeira aventura épica com os heróis favoritos, sem gastar uma fortuna.",
+          "image": "https://github.com/thebabirosa/GUIAIMAG/blob/main/4.png?raw=true"
+        },
+        {
+          "title": "Festinhas de Princesas",
+          "text": "Tudo para uma festa digna de realeza, com detalhes que encantam e brilham, gastando muito pouco.",
+          "image": "https://github.com/thebabirosa/GUIAIMAG/blob/main/6.png?raw=true"
+        },
+        {
+          "title": "Festinhas Religiosas",
+          "text": "Sugestões delicadas e respeitosas para batizados, primeira comunhão e celebrações com temas de fé.",
+          "image": "https://github.com/thebabirosa/GUIAIMAG/blob/main/1.png?raw=true"
+        },
+        {
+          "title": "Lista de achadinhos",
           "text": "A lista de ouro com os melhores itens. Você não perde tempo garimpando e vai direto naquilo que as festas “de rica” usam, com o melhor custo-benefício.",
           "image": "https://github.com/thebabirosa/GUIAIMAG/blob/main/1.png?raw=true"
         },
         {
-          "title": "Manual da Festa Pronta",
-          "text": "Um guia prático que mostra exatamente o que fazer para organizar a festa sem confusão, seguindo etapas claras que deixam tudo mais fácil.",
-          "image": "https://github.com/thebabirosa/GUIAIMAG/blob/main/MOCKUPS.png?raw=true"
-        },
-        {
-          "title": "Planner “Festa Sem Aperto”",
-          "text": "Um cronograma simples pra organizar tudo sem correrias. O que fazer 30 dias antes, 15 dias antes e na véspera, pra você chegar no dia da festa tranquila.",
-          "image": "https://github.com/thebabirosa/GUIAIMAG/blob/main/4.png?raw=true"
-        },
-        {
-          "title": "Calculadora de Festa",
-          "text": "Descubra exatamente quanto comprar de doces, lembrancinhas e itens da mesa, de acordo com o número de convidados, evitando desperdício e garantindo que não falte nada no grande dia.",
-          "image": "https://github.com/thebabirosa/GUIAIMAG/blob/main/5.png?raw=true"
-        },
-        {
-          "title": "Catálogo de Temas que Impressionam",
-          "text": "Ideias de temas que nunca saem de moda e que são fáceis de montar. Você não precisa mais ficar horas no Google tentando inventar, é só escolher um dos temas que eu separei pra você.",
+          "title": "Temas que Parecem Caros (Mas São Baratos)",
+          "text": "Ideias de temas que impressionam pelo visual sofisticado, mas que são extremamente simples e baratos de montar.",
           "image": "https://github.com/thebabirosa/GUIAIMAG/blob/main/6.png?raw=true"
         },
         {
-          "title": "Kit Mesversário",
-          "text": "A sua salvação para os primeiros meses do bebê. Modelos e ideias pra você fazer mês a mês sem gastar com festas grandes e sem estourar o orçamento.",
-          "image": "https://github.com/thebabirosa/GUIAIMAG/blob/main/7.png?raw=true"
+          "title": "Temas mais pedidos de 2026",
+          "text": "Fique por dentro das tendências e garanta uma festa moderna e atualizada com o que há de mais novo no mundo das festas.",
+          "image": "https://github.com/thebabirosa/GUIAIMAG/blob/main/MOCKUPS.png?raw=true"
+        },
+        {
+          "title": "Lista de Compras da Festa Perfeita",
+          "text": "Um checklist completo para você não esquecer nada e comprar apenas o necessário, direto ao ponto.",
+          "image": "https://github.com/thebabirosa/GUIAIMAG/blob/main/4.png?raw=true"
         },
         {
           "title": "Convite Virtual Editável",
           "text": "Modelos prontinhos no Canva. É só abrir, trocar o nome do seu filho, o endereço e enviar no WhatsApp. Profissional, rápido e sem custo nenhum.",
           "image": "https://github.com/thebabirosa/GUIAIMAG/blob/main/8.png?raw=true"
+        },
+        {
+          "title": "Kit Mesversário",
+          "text": "A sua salvação para os primeiros meses do bebê. Modelos e ideias pra você fazer mês a mês sem gastar com festas grandes e sem estourar o orçamento.",
+          "image": "https://github.com/thebabirosa/GUIAIMAG/blob/main/7.png?raw=true"
         }
       ]
     },
@@ -165,23 +193,15 @@ export const pageData = {
       "title": "Recapitulando tudo que você vai receber no Guia de Achadinhos para Festa Infantil",
       "price_items": [
         {
-          "name": "Lista de Achadinhos",
+          "name": "Lista de achadinhos",
           "price": "R$ 77"
         },
         {
-          "name": "Manual da Festa Pronta",
+          "name": "Calculadora de Festa Econômica",
           "price": "R$ 97"
         },
         {
-          "name": "Planner “Festa Sem Aperto”",
-          "price": "R$ 67"
-        },
-        {
-          "name": "Calculadora de Festa",
-          "price": "R$ 97"
-        },
-        {
-          "name": "Catálogo de Temas que Impressionam",
+          "name": "Temas que Parecem Caros",
           "price": "R$ 97"
         },
         {
@@ -191,6 +211,10 @@ export const pageData = {
         {
           "name": "Convite Virtual Editável",
           "price": "R$ 37"
+        },
+        {
+          "name": "Bônus: Temas e Tendências 2026",
+          "price": "R$ 164"
         }
       ],
       "total_text": "Tudo isso deveria custar R$519. Mas hoje você vai ter acesso por apenas:"
