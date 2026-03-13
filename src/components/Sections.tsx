@@ -184,7 +184,7 @@ export const QuoteBlocks = ({ data }: { data: any }) => (
       <div className="lg:col-span-6 order-1 lg:order-2">
         <div className="relative">
           <img 
-            src="https://github.com/thebabirosa/GUIAIMAG/blob/main/20260309_1820_Image%20Generation_remix_01kka7g8gwetevb6eez8kr986h.png?raw=true" 
+            src="https://raw.githubusercontent.com/thebabirosa/GUIAIMAG/main/20260309_1820_Image%20Generation_remix_01kka7g8gwetevb6eez8kr986h.png" 
             alt="Mãe preocupada" 
             className="w-full h-auto rounded-lg shadow-xl"
             referrerPolicy="no-referrer"
