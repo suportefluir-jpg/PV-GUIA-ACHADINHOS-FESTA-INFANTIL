@@ -23,6 +23,8 @@ export default function App() {
               return <Sections.StepsCards key={section.id} data={section} />;
             case 'two_column_checklist':
               return <Sections.TwoColumnChecklist key={section.id} data={section} />;
+            case 'benefits_visual_grid':
+              return <Sections.BenefitsVisualGrid key={section.id} data={section} />;
             case 'stacked_offer_cards':
               return <Sections.StackedOfferCards key={section.id} data={section} />;
             case 'pricing_recap':

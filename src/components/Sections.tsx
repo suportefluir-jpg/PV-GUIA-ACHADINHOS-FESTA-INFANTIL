@@ -160,8 +160,8 @@ export const BenefitsWithSideImage = ({ data }: { data: any }) => (
 export const QuoteBlocks = ({ data }: { data: any }) => (
   <Section id={data.id} background={data.background}>
     <div className="text-center max-w-4xl mx-auto mb-12">
-      <h2 className="text-2xl md:text-3xl lg:text-4xl mb-4 font-black leading-tight whitespace-pre-line">{data.intro}</h2>
-      <p className="text-xl font-bold opacity-90">{data.subintro}</p>
+      <h2 className="text-3xl md:text-4xl lg:text-5xl mb-4 font-black leading-tight whitespace-pre-line">{data.intro}</h2>
+      <p className="text-2xl font-bold opacity-90">{data.subintro}</p>
     </div>
     
     <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center max-w-6xl mx-auto">
@@ -173,7 +173,7 @@ export const QuoteBlocks = ({ data }: { data: any }) => (
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className="bg-pink p-5 rounded-[20px] shadow-md text-sm md:text-base font-medium leading-relaxed"
+            className="bg-pink p-5 rounded-[20px] shadow-md text-lg md:text-xl font-medium leading-relaxed"
           >
             {quote}
           </motion.div>
@@ -200,7 +200,7 @@ export const QuoteBlocks = ({ data }: { data: any }) => (
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className="bg-pink p-5 rounded-[20px] shadow-md text-sm md:text-base font-medium leading-relaxed"
+            className="bg-pink p-5 rounded-[20px] shadow-md text-lg md:text-xl font-medium leading-relaxed"
           >
             {quote}
           </motion.div>
@@ -307,6 +307,39 @@ export const TwoColumnChecklist = ({ data }: { data: any }) => (
           </div>
         ))}
       </div>
+    </div>
+  </Section>
+);
+
+export const BenefitsVisualGrid = ({ data }: { data: any }) => (
+  <Section id={data.id} background={data.background}>
+    <h2 className="text-3xl md:text-5xl text-center mb-16 font-black">{data.title}</h2>
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {data.items.map((item: any, i: number) => (
+        <motion.div 
+          key={i}
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: i * 0.1 }}
+          className="bg-white rounded-[32px] overflow-hidden shadow-xl border border-gray-100 flex flex-col"
+        >
+          <div className="aspect-video w-full overflow-hidden">
+            <img 
+              src={item.image} 
+              alt={item.text} 
+              className="w-full h-full object-cover"
+              referrerPolicy="no-referrer"
+            />
+          </div>
+          <div className="p-6 flex items-start gap-3">
+            <div className="bg-green-button/10 p-1 rounded-full shrink-0 mt-1">
+              <Check className="text-green-button" size={20} />
+            </div>
+            <p className="font-bold text-lg leading-tight">{item.text}</p>
+          </div>
+        </motion.div>
+      ))}
     </div>
   </Section>
 );

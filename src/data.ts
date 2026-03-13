@@ -67,7 +67,7 @@ export const pageData = {
     {
       "id": "agitation_transition",
       "type": "text_box_emphasis",
-      "background": "#f4f4f4",
+      "background": "#b0e6cf",
       "box_background": "#ffffff",
       "border_color": "#c9a3d8",
       "paragraphs": [
@@ -88,12 +88,12 @@ export const pageData = {
         {
           "title": "Escolha o tema da festinha",
           "text": "Você vai abrir o Guia e escolher a festa que combina com o seu filho. Nada de planejar do zero, é só bater o olho e decidir.",
-          "image": "https://github.com/thebabirosa/GUIAIMAG/blob/main/20260309_1908_Image%20Generation_simple_compose_01kkaa8tvff6ysk2dt5cnpgk4g.png?raw=true"
+          "image": "https://github.com/suportefluir-jpg/pv-festa-images/blob/main/20260312_1622_Imaginative%20Birthday%20Party%20Planning_simple_compose_01kkhqz721eb5sd1d282s9qtpk.png?raw=true"
         },
         {
           "title": "Acesse o link e receba tudo em casa",
           "text": "Você só vai clicar nos links que eu separei. Assim, você economiza horas de busca e vai direto ao ponto, com muito mais segurança.",
-          "image": "https://github.com/thebabirosa/GUIAIMAG/blob/main/20260309_1921_Image%20Generation_simple_compose_01kkab1kydfc99h4cyvh3z8swc.png?raw=true"
+          "image": "https://github.com/suportefluir-jpg/pv-festa-images/blob/main/20260312_1633_Image%20Generation_remix_01kkhrhbjnfh7vw75g90ekth9t.png?raw=true"
         },
         {
           "title": "Monte do seu jeito, sem surpresas",
@@ -104,18 +104,34 @@ export const pageData = {
     },
     {
       "id": "benefits_grid",
-      "type": "two_column_checklist",
-      "background": "#f8b7c7",
+      "type": "benefits_visual_grid",
+      "background": "#ffffff",
       "title": "Com o Guia de Achadinhos você vai:",
-      "items_left": [
-        "Montar uma festinha que vai deixar as outras mães de boca aberta.",
-        "Ter os achadinhos secretos que as ricas não querem que você saiba.",
-        "Parar de pagar caro por festinha simples."
-      ],
-      "items_right": [
-        "Montar uma decoração que vai render fotos incríveis.",
-        "Fazer uma festa que vai causar inveja nas outras mães.",
-        "Ver seu filho feliz e todo mundo elogiando a festa."
+      "items": [
+        {
+          "text": "Montar uma festinha que vai deixar as outras mães de boca aberta.",
+          "image": "https://github.com/suportefluir-jpg/pv-festa-images/blob/main/Gemini_Generated_Image_m4fqj9m4fqj9m4fq.png?raw=true"
+        },
+        {
+          "text": "Ter os achadinhos secretos que as ricas não querem que você saiba.",
+          "image": "https://github.com/suportefluir-jpg/pv-festa-images/blob/main/Gemini_Generated_Image_ahik4oahik4oahik.png?raw=true"
+        },
+        {
+          "text": "Parar de pagar caro por festinha simples.",
+          "image": "https://github.com/suportefluir-jpg/pv-festa-images/blob/main/20260312_1648_Image%20Generation_simple_compose_01kkhsfmkde71t5by7rpb30144.png?raw=true"
+        },
+        {
+          "text": "Montar uma decoração que vai render fotos incríveis.",
+          "image": "https://github.com/suportefluir-jpg/pv-festa-images/blob/main/20260312_1825_Image%20Generation_remix_01kkhz12g9fkfvzjd7adnv7411.png?raw=true"
+        },
+        {
+          "text": "Fazer uma festa que vai causar inveja nas outras mães.",
+          "image": "https://github.com/suportefluir-jpg/pv-festa-images/blob/main/20260312_1811_Image%20Generation_remix_01kkhy5r1af96vfatxfb7t56d5.png?raw=true"
+        },
+        {
+          "text": "Ver seu filho feliz e todo mundo elogiando a festa.",
+          "image": "https://github.com/suportefluir-jpg/pv-festa-images/blob/main/20260312_1818_Image%20Generation_remix_01kkhyh1v6ea1adp5wmb5gx668.png?raw=true"
+        }
       ]
     },
     {
@@ -131,28 +147,28 @@ export const pageData = {
         },
         {
           "title": "Festinhas Personalizadas para Meninas",
-          "text": "Temas encantadores e delicados, pensados exclusivamente para criar um mundo de sonhos para as meninas.",
-          "image": "https://github.com/thebabirosa/GUIAIMAG/blob/main/6.png?raw=true"
+          "text": "Temas de festa delicados e encantadores princesas da Disney, unicórnio, bailarina, sereia, Barbie, arco-íris, fadas, minnie...",
+          "image": "https://github.com/suportefluir-jpg/pv-festa-images/blob/main/20260312_1841_Image%20Generation_simple_compose_01kkhzxqb9egpa9wqxwh301gyj.png?raw=true"
         },
         {
           "title": "Festinhas Personalizadas para Meninos",
-          "text": "Opções criativas e cheias de aventura, com tudo que os meninos amam para uma festa inesquecível.",
-          "image": "https://github.com/thebabirosa/GUIAIMAG/blob/main/MOCKUPS.png?raw=true"
+          "text": "Opções criativas e cheias de aventura como: Super-heróis (Homem-Aranha, Vingadores, Batman), Patrulha Canina, Dinossauros, Carros/Hot Wheels, Safari, Super Mario e astronautas",
+          "image": "https://github.com/suportefluir-jpg/pv-festa-images/blob/main/Gemini_Generated_Image_dt4saxdt4saxdt4s%20(1).png?raw=true"
         },
         {
           "title": "Festinhas de Super-Heróis",
-          "text": "Transforme o aniversário em uma verdadeira aventura épica com os heróis favoritos, sem gastar uma fortuna.",
-          "image": "https://github.com/thebabirosa/GUIAIMAG/blob/main/4.png?raw=true"
+          "text": "Temas populares including Vingadores (Marvel), Liga da Justiça (DC), Homem-Aranha, Batman, e versões \"Baby\" para crianças menores",
+          "image": "https://github.com/suportefluir-jpg/pv-festa-images/blob/main/Gemini_Generated_Image_ugmfqrugmfqrugmf.png?raw=true"
         },
         {
           "title": "Festinhas de Princesas",
-          "text": "Tudo para uma festa digna de realeza, com detalhes que encantam e brilham, gastando muito pouco.",
-          "image": "https://github.com/thebabirosa/GUIAIMAG/blob/main/6.png?raw=true"
+          "text": "As clássicas Princesas Disney (Cinderela, Bela, Ariel), além de Frozen (Elsa e Anna), Moana e Rapunzel (Enrolados)",
+          "image": "https://github.com/suportefluir-jpg/pv-festa-images/blob/main/Gemini_Generated_Image_uw0dnxuw0dnxuw0d.png?raw=true"
         },
         {
           "title": "Festinhas Religiosas",
-          "text": "Sugestões delicadas e respeitosas para batizados, primeira comunhão e celebrações com temas de fé.",
-          "image": "https://github.com/thebabirosa/GUIAIMAG/blob/main/1.png?raw=true"
+          "text": "Arca de Noé, Anjinhos/Batizado, O Pequeno Davi, Jardim da Fé, Jesus e as Crianças, Frutos do Espírito.",
+          "image": "https://github.com/suportefluir-jpg/pv-festa-images/blob/main/MOCKUPS%20(1).png?raw=true"
         },
         {
           "title": "Lista de achadinhos",
@@ -160,14 +176,9 @@ export const pageData = {
           "image": "https://github.com/thebabirosa/GUIAIMAG/blob/main/1.png?raw=true"
         },
         {
-          "title": "Temas que Parecem Caros (Mas São Baratos)",
-          "text": "Ideias de temas que impressionam pelo visual sofisticado, mas que são extremamente simples e baratos de montar.",
-          "image": "https://github.com/thebabirosa/GUIAIMAG/blob/main/6.png?raw=true"
-        },
-        {
           "title": "Temas mais pedidos de 2026",
-          "text": "Fique por dentro das tendências e garanta uma festa moderna e atualizada com o que há de mais novo no mundo das festas.",
-          "image": "https://github.com/thebabirosa/GUIAIMAG/blob/main/MOCKUPS.png?raw=true"
+          "text": "Os campeões incluem Stitch, Divertidamente 2, Minecraft, Sonic e Patrulha Canina",
+          "image": "https://github.com/suportefluir-jpg/pv-festa-images/blob/main/MOCKUPS%20(2).png?raw=true"
         },
         {
           "title": "Lista de Compras da Festa Perfeita",
@@ -193,37 +204,57 @@ export const pageData = {
       "title": "Recapitulando tudo que você vai receber no Guia de Achadinhos para Festa Infantil",
       "price_items": [
         {
-          "name": "Lista de achadinhos",
-          "price": "R$ 77"
-        },
-        {
           "name": "Calculadora de Festa Econômica",
           "price": "R$ 97"
         },
         {
-          "name": "Temas que Parecem Caros",
-          "price": "R$ 97"
+          "name": "Festinhas Personalizadas para Meninas",
+          "price": "R$ 47"
         },
         {
-          "name": "Kit Mesversário",
+          "name": "Festinhas Personalizadas para Meninos",
           "price": "R$ 47"
+        },
+        {
+          "name": "Festinhas de Super-Heróis",
+          "price": "R$ 47"
+        },
+        {
+          "name": "Festinhas de Princesas",
+          "price": "R$ 47"
+        },
+        {
+          "name": "Festinhas Religiosas",
+          "price": "R$ 47"
+        },
+        {
+          "name": "Lista de achadinhos",
+          "price": "R$ 77"
+        },
+        {
+          "name": "Temas mais pedidos de 2026",
+          "price": "R$ 47"
+        },
+        {
+          "name": "Lista de Compras da Festa Perfeita",
+          "price": "R$ 27"
         },
         {
           "name": "Convite Virtual Editável",
           "price": "R$ 37"
         },
         {
-          "name": "Bônus: Temas e Tendências 2026",
-          "price": "R$ 164"
+          "name": "Kit Mesversário",
+          "price": "R$ 47"
         }
       ],
-      "total_text": "Tudo isso deveria custar R$519. Mas hoje você vai ter acesso por apenas:"
+      "total_text": "Tudo isso deveria custar R$ 667. Mas hoje você vai ter acesso por apenas:"
     },
     {
       "id": "offer_cta_1",
       "type": "offer_split",
       "background": "#bfe8d6",
-      "left_image": "https://github.com/thebabirosa/GUIAIMAG/blob/main/2.png?raw=true",
+      "left_image": "https://github.com/suportefluir-jpg/pv-festa-images/blob/main/MOCKUPS%20(4).png?raw=true",
       "installments_text": "apenas 9x",
       "price_main": "R$ 8,76",
       "price_cash": "ou R$ 67,00 à vista com desconto",
@@ -277,7 +308,7 @@ export const pageData = {
       "id": "offer_cta_2",
       "type": "offer_split",
       "background": "#bfe8d6",
-      "left_image": "https://github.com/thebabirosa/GUIAIMAG/blob/main/2.png?raw=true",
+      "left_image": "https://github.com/suportefluir-jpg/pv-festa-images/blob/main/MOCKUPS%20(4).png?raw=true",
       "installments_text": "apenas 9x",
       "price_main": "R$ 8,76",
       "price_cash": "ou R$ 67,00 à vista com desconto",
